@@ -45,6 +45,10 @@ env/
 !/static/.gitkeep
 
 # Secrets
-secrets.json
-config/settings/secrets.json
-config/settings/base.py
+
+bookmarks/settings.py
+cert.crt
+cert.key
+Screen Shot 2022-10-17 at 10.56.24 PM.png
+Screen Shot 2022-10-17 at 10.56.49 PM.png
+Screen Shot 2022-10-17 at 10.57.03 PM.png
