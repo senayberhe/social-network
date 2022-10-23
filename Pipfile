@@ -17,6 +17,10 @@ easy-thumbnails = "*"
 django-debug-toolbar = "*"
 redis = "*"
 gunicorn = "*"
+django-heroku = "*"
+coverage = "*"
+whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
