@@ -1,151 +1,192 @@
-Implement authentication using the Django authentication framework
-Extend the user model with a custom profile model
-Use the Diango messages framework
-Build a custom authentication backend
-Implement social authentication (OAuth2) with Facebook, Twitter, and Google using Python Social Auth
-Use django-extensions to run the development server through HTTPS
-Generate image thumbnails with easy-thumbnails
-Implement many-to-many relationships in models
-Build a JavaScript bookmarklet with JavaScript and Django
-Add asynchronous HTTP requests with the JavaScript Fetch API and Django
-Implement infinite scroll pagination
-Build a user follow system
-Create a user activity stream and optimize QuerySets
-Learn to use Django signals
-Use django-debug-toolbar to obtain relevant debug information
-Count image views with Redis
-Build an image ranking with Redis
+# Dillinger
+## _The Last Markdown Editor, Ever_
 
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-# Your Project Title
-> Write a little description about your project. 2-3 sentances are enough.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
+AngularJS-powered HTML5 Markdown editor.
 
-
-![](https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png)
-
-
-## Requirements  (Prerequisites)
-Tools and packages required to successfully install this project.
-For example:
-* Linux [Install](https://link-for-setup-guide)
-* Python 3.3 and up [Install](https://link-for-setup-guide)
-
-## Installation
-A step by step list of commands / guide that informs how to install an instance of this project. 
-
-`$ pip install foobar`
-
-`$ npm install project-name --save`
-
-`$ any other command`
-
-For Linux and OS X
-
-`npm install project-name --save`
-
-For Windows
-
-`git clone project-url`
- 
-## Screenshots
-Use this space to give a little demo of your project. Attach important screenshots if applicable. This section is optional and might not be applicable in some cases.
-
-![Screenshots of projects](https://dradisframework.com/images/pro/screenshots/screenshot-62_small.png)
-
-![Screenshots of the project](http://securityroots.com/blog/wp-content/uploads/2013/12/snowcrash-01.png)
+- Type some Markdown on the left
+- See HTML in the right
+- ✨Magic ✨
 
 ## Features
-Write a little about unique features of your project and what makes it outstanding. Describe the functionalities of your project. You can make a list of it with some descriptions, like:
-* Used Bootstrap to make it 100% responsive
-* Used AI/ML to automate some stuff
-* Etc Etc......
 
-## Usage example
-Show how and what your project does. Users should figure out how your project solves their problem by looking at the code example. Spice this up with code blocks and potentially more screenshots. These examples should motivate the users to use your project. 
-```python
-import foobar
+- Import a HTML file and watch it magically convert to Markdown
+- Drag and drop images (requires your Dropbox account be linked)
+- Import and save files from GitHub, Dropbox, Google Drive and One Drive
+- Drag and drop markdown and HTML files into Dillinger
+- Export documents as Markdown, HTML and PDF
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-``` 
+Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As [John Gruber] writes on the [Markdown site][df1]
 
-Mention any other documentation or live example available for reverence.
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
 
-## Running the tests
-Describe and show how to run the tests with code examples.. Explain how to run the automated tests for this system.  Also explain how to test and why to test.
+This text you see here is *actually- written in Markdown! To get a feel
+for Markdown's syntax, type some text into the left window and
+watch the results in the right.
 
-Give code examples as:
-1. `test example 1`
-2. `test example 2`
-3. `npm test`
-4. `test till you finish`
+## Tech
 
-## Deployment Notes
-Explain how to deploy your project  on a live server. To do so include step by step guide. Potentially do this for multiple platforms. 
+Dillinger uses a number of open source projects to work properly:
+
+- [AngularJS] - HTML enhanced for web apps!
+- [Ace Editor] - awesome web-based text editor
+- [markdown-it] - Markdown parser done right. Fast and easy to extend.
+- [Twitter Bootstrap] - great UI boilerplate for modern web apps
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [Gulp] - the streaming build system
+- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
+to Markdown converter
+- [jQuery] - duh
+
+And of course Dillinger itself is open source with a [public repository][dill]
+ on GitHub.
+
+## Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
 ```sh
-virtualenv foobar
-npm test
-make install 
-pip install -e .
-More examples please....
+cd dillinger
+npm i
+node app
 ```
 
-## Tech Stack / Built With
-List down the technology / frameworks / tools / technology you have used in this project.
-1. [Laravel](https://laravel.com/) - The PHP framework
-2. [IPFS](https://ipfs.io/)  - A peer-to-peer hypermedia protocol to make the web faster, safer, and more open. 
-3. [Android](https://www.android.com/) - The world’s most popular mobile OS
+For production environments...
 
-## How to Contribute
-Mention how anyone can contribute to make this project more productive or fix bugs in it.  
+```sh
+npm install --production
+NODE_ENV=production node app
+```
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+## Plugins
 
-Steps to contribute:
-1. Fork this repository (link to your repository)
-2. Create your feature branch (git checkout -b feature/fooBar)
-3. Commit your changes (git commit -am 'Add some fooBar')
-4. Push to the branch (git push origin feature/fooBar)
-5. Create a new Pull Request
+Dillinger is currently extended with the following plugins.
+Instructions on how to use them in your own application are linked below.
 
-Additionally you can create another document called CONTRIBUTING.md which gives instructions about how to contribute. 
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+## Development
 
-## Authors
-Write about yourself or your organization, who created this project. For example:
- 
-Sagar Ganiga  – tech.ganiga@gmail.com
- 
- You can find me here at:
-[Github](https://github.com/SagarGaniga)
-[LinkedIn](https://www.linkedin.com/in/sagar-ganiga/)
+Want to contribute? Great!
 
-## Credits
-Give credits to all the useful resources you used to create this project. It could be a link to any repository which inspired you to build this project, any blog or links to people who contributed in this project.
+Dillinger uses Gulp + Webpack for fast developing.
+Make a change in your file and instantaneously see your updates!
 
-A heartfelt thank you to [@UjalaJha](https://github.com/UjalaJha) for the encouragement I needed to get this idea off the ground and start writing!
+Open your favorite Terminal and run these commands.
 
-Thank you to the following awesome geeks for sending PRs and improving the Quality of this project ❤️
-* [@UjalaJha](https://github.com/UjalaJha)
+First Tab:
 
-Here's a list of other related projects / blogs which helped me in creating the best possible version of my project:
-* [README-Template.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by [@PurpleBooth](https://gist.github.com/PurpleBooth)
-* [A Beginners Guide to writing a Kickass README ✍](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) by Akash Nimare
-* [readme-best-practices](https://github.com/jehna/readme-best-practices) by [@jehna](https://github.com/jehna/)
-* [readme-template](https://github.com/dbader/readme-template/blob/master/README.md) by [@dbader](https://github.com/dbader/)
-* [art-of-readme](https://github.com/noffle/art-of-readme/blob/master/README.md) by [@noffle](https://github.com/noffle/)
-* [Make a README](https://www.makeareadme.com/)
+```sh
+node app
+```
+
+Second Tab:
+
+```sh
+gulp watch
+```
+
+(optional) Third:
+
+```sh
+karma test
+```
+
+#### Building for source
+
+For production release:
+
+```sh
+gulp build --prod
+```
+
+Generating pre-built zip archives for distribution:
+
+```sh
+gulp build dist --prod
+```
+
+## Docker
+
+Dillinger is very easy to install and deploy in a Docker container.
+
+By default, the Docker will expose port 8080, so change this within the
+Dockerfile if necessary. When ready, simply use the Dockerfile to
+build the image.
+
+```sh
+cd dillinger
+docker build -t <youruser>/dillinger:${package.json.version} .
+```
+
+This will create the dillinger image and pull in the necessary dependencies.
+Be sure to swap out `${package.json.version}` with the actual
+version of Dillinger.
+
+Once done, run the Docker image and map the port to whatever you wish on
+your host. In this example, we simply map port 8000 of the host to
+port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+
+```sh
+docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
+```
+
+> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
+
+Verify the deployment by navigating to your server address in
+your preferred browser.
+
+```sh
+127.0.0.1:8000
+```
 
 ## License
-A short snippet describing the license (MIT, Apache etc).
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+MIT
 
-MIT © Yourname
+**Free Software, Hell Yeah!**
 
-# social-network
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
