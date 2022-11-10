@@ -1,192 +1,87 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
+[![Header](https://www.creative-tim.com/blog/content/images/size/w1140/2021/08/rebranding-post--1-.jpg "Header")](https://www.creative-tim.com/)
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+Hi there ✋!  
+We are [Creative Tim](https://www.creative-tim.com/)<img src="https://www.creative-tim.com/assets/logo/logo-ct-white-170d794e447f75aec55c6effdfbedced9dd268ceceece152675ff8f9891e3588.svg" />
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+## About Us
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
+Creating your web design from scratch with dedicated designers can be very expensive. Using our solutions you don't have to worry about design. Save time and money by focusing on the business model.
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+## Our expertise
 
-## Features
+- Create UI Frameworks
+  -  We have created the tools that will help you in your next project. From plugins to complex kits, we've got you covered in all areas regarding front-end development.
+- Share Freebies
+  -  Everything that we used to create our products can be downloaded for free under MIT License. People have already trusted and used them in thousands of sites.
+- Power Hackathons
+  -  We've sponsored many hackathons around the world with the tools that they need to make awesome web applications. Our UI tools go hand in hand with startups.
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+## Our technologies
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+Our products are built on top of modern frameworks. Having the coded and the designed versions for the same framework, your designers and developers will talk the same language.
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+<p>
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sass.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/figma.jpg" width="67.5px" />
+  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/icon-laravel.jpg" width="67.5px" />
+</p>
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
+## Our products
 
-## Tech
+Material Kit 2 | Soft UI Dashboard | Soft UI React Native | Tailwind Starter Kit
+-------------- | ----------------- | -------------------- | ---------------------
+👉 [Download](https://www.creative-tim.com/product/material-kit) | 👉 [Download](https://www.creative-tim.com/product/soft-ui-dashboard) | 👉 [Download](https://www.creative-tim.com/product/soft-ui-react-native) | 👉 [Download](https://github.com/creativetimofficial/tailwind-starter-kit)
+📖 [Documentation](https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit) | 📖 [Documentation](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard) | 📖 [Documentation](https://www.creative-tim.com/learning-lab/react-native/overview/soft) | 📖 [Documentation](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/download)
+✅ [Live Preview](https://demos.creative-tim.com/material-kit/index.html) | ✅ [Live Preview](https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html) | ✅ [Live Preview](https://demos.creative-tim.com/soft-ui-react-native/) | ✅ [Live Preview](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation)
+![Material Kit 2](https://s3.amazonaws.com/creativetim_bucket/products/38/original/material-kit.jpg?1633601280) | ![Soft UI Dashboard](https://s3.amazonaws.com/creativetim_bucket/products/450/original/opt_sd_free_thumbnail.jpg?1617715816) | ![Soft UI React Native](https://s3.amazonaws.com/creativetim_bucket/products/490/original/opt_soft_ui_react_native_thumbnail.jpg?1625576346)| ![Tailwind Starter Kit](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/creative-tim/opt_tsp_tailwindcss_thumbnail.jpg)
 
-Dillinger uses a number of open source projects to work properly:
+[View All Products](https://www.creative-tim.com/templates)
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+## Our courses
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+**Text courses:**
 
-## Installation
+- [How to quickstart and launch your website using Jekyll?](https://www.creative-tim.com/blog/webdesign/quickstart-launch-website-using-jekyll)
+- [How to create Scrolling Transformations for your React App?](https://www.creative-tim.com/blog/webdesign/create-scrolling-transformations-react-app)
+- [How to create a single-page application using React?](https://www.creative-tim.com/blog/react/create-single-page-application-using-react)
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+**Video courses:**
 
-Install the dependencies and devDependencies and start the server.
+|[![How to use React with Firebase and Redux: Introduction](https://img.youtube.com/vi/BMPHfnAA9iI/mqdefault.jpg)](https://www.creative-tim.com/courses "How to use React with Firebase and Redux: Introduction")|[![ReactJS and Redux Tutorial with real-life examples](https://img.youtube.com/vi/raKV5Rb8oOM/mqdefault.jpg)](https://www.creative-tim.com/courses "ReactJS and Redux Tutorial with real-life examples")|[![Responsive Admin Template using Light Bootstrap Dashboard](https://img.youtube.com/vi/vt5hemH8I9w/mqdefault.jpg)](https://www.creative-tim.com/courses "Responsive Admin Template using Light Bootstrap Dashboard")
+|:--:|:--:|:--:|
+|How to use React with Firebase and Redux: Introduction|ReactJS and Redux Tutorial with real-life examples|Responsive Admin Template using Light Bootstrap Dashboard|
 
-```sh
-cd dillinger
-npm i
-node app
-```
+## Our latest posts
 
-For production environments...
+1. **[🔥 Creative Tim Courses](https://www.creative-tim.com/blog/creative-tim/new-learning-resources-web-designers/)** <br> *New Learning Platform for Web Designers & Devs*
+2. **[😎 Git Tutorial](https://www.creative-tim.com/blog/educational-tech/git-tutorial-fix-common-mistakes/)** <br> *How to Fix 18 Common Mistakes*
+3. **[🙏 Docker and Django](https://www.creative-tim.com/blog/django-template/docker-and-django-how-to-start-fast/)** <br> *How to start fast*
+4. **[⭐️ Technology](https://www.creative-tim.com/blog/ux/importance-user-experience-expert/)** <br> *The Importance of a User Experience Expert in Every Company*
+5. **[💣 Shopify Templates](https://www.creative-tim.com/blog/shopify-themes/best-ecommerce-shopify-templates/)** <br> *10+ Best E-commerce Shopify Templates*
 
-```sh
-npm install --production
-NODE_ENV=production node app
-```
 
-## Plugins
+## Useful Links
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
+- [Premium Products](https://www.creative-tim.com/templates/premium)
+- [Freebies](https://www.creative-tim.com/templates/free) from Creative Tim
+- [More products](https://www.creative-tim.com/templates) from Creative Tim
+- [Bundles](https://www.creative-tim.com/bundles)
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [Material Design](https://www.creative-tim.com/design-system/material)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
+- [Get Discount](https://www.creative-tim.com/coupon)
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+## Contact us
 
-## Development
+[<img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />](https://github.com/creativetimofficial) [<img alt="twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/CreativeTim) [<img alt="linkedin" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/creative-tim-1b54778b) [<img alt="youtube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w) <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
-#### Building for source
-
-For production release:
-
-```sh
-gulp build --prod
-```
-
-Generating pre-built zip archives for distribution:
-
-```sh
-gulp build dist --prod
-```
-
-## Docker
-
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the
-Dockerfile if necessary. When ready, simply use the Dockerfile to
-build the image.
-
-```sh
-cd dillinger
-docker build -t <youruser>/dillinger:${package.json.version} .
-```
-
-This will create the dillinger image and pull in the necessary dependencies.
-Be sure to swap out `${package.json.version}` with the actual
-version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on
-your host. In this example, we simply map port 8000 of the host to
-port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
-```
-
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
-
-Verify the deployment by navigating to your server address in
-your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
-## License
-
-MIT
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+<p align="center"> © 2022 Senay Berhe, all rights reserved. Made with ❤️ for a better web. </p>
+<p align="center">
+https://www.senayberhe.com
+</p>
