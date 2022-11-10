@@ -31,7 +31,7 @@ Social-Network is created a website to bookmark and share images [Python][0] usi
 Git clone to a local directory:
 
 ```
-git clone https://github.com/DjangoPatternsBook/social-Network.git
+git clone https://github.com/senayberhe/social-network
 ```
 
 [Install pipenv system-wide or locally](https://docs.pipenv.org/) but outside a virtualenv. Alternatively, follow these commands:
@@ -44,7 +44,7 @@ $ pip install pipenv
 Now go to the project directory and install the dependencies:
 ```
 $ cd social-Network
-$ pipenv install --dev
+$ pipenv install 
 ```
 
 Now you need to enter the pipenv shell:
