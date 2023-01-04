@@ -1,6 +1,12 @@
 # Social-Network
 
-Social-Network is created a website to bookmark and share images [Python][0] using the [Django Web Framework][1]. Implement social authentication with Facebook, Twitter, and Google. Create user profiles, generate image thumbnails, build a bookmarklet with JavaScript and Django, create a user activity stream, implement AJAX requests with JS and Django, develop a user follow system, learn to use Django signals, implement infinite scroll pagination, and build an image ranking with Redis.
+    A website for bookmarking and sharing images was created using Python and the Django Web Framework.
+    Social authentication was implemented with Facebook, Twitter, and Google.
+    User profiles were created and image thumbnails were generated.
+    A bookmarklet was built using JavaScript and Django.
+    A user activity stream was created and AJAX requests were implemented using JavaScript and Django.
+    A user follow system was developed and Django signals were used.
+    Infinite scroll pagination was implemented and an image ranking system was built using Redis.
 
 
 ![My Image](img.png)
