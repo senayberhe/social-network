@@ -21,6 +21,7 @@ django-heroku = "*"
 coverage = "*"
 whitenoise = "*"
 dj-database-url = "*"
+pip = "*"
 
 [dev-packages]
 
