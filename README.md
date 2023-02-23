@@ -61,22 +61,17 @@ python manage.py runserver
 Screenshots
 
 Here are some screenshots of the application:
-Login Page
 
-Login Page
+
+DashBoard 
 ![Screenshot](img1.png)
 
-News Feed
-User Profile
 
+Bookmarks
 ![Screenshot](img2.png)
 
-User Profile
-Post Detail
+Profiles
 
 ![Screenshot](img3.png)
 
-Post Detail
-Contributing
 
-If you would like to contribute to Django Social Network, feel free to submit a pull request. We welcome contributions from anyone!
