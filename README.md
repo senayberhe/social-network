@@ -31,10 +31,10 @@ bash
 
 sh
 
-export SECRET_KEY='your-secret-key'
-export DEBUG='True'
-export SOCIAL_AUTH_FACEBOOK_KEY='your-facebook-app-id'
-export SOCIAL_AUTH_FACEBOOK_SECRET='your-facebook-app-secret'
+    export SECRET_KEY='your-secret-key'
+    export DEBUG='True'
+    export SOCIAL_AUTH_FACEBOOK_KEY='your-facebook-app-id'
+    export SOCIAL_AUTH_FACEBOOK_SECRET='your-facebook-app-secret'
 
 
 python -m venv env
