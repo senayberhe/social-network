@@ -1,75 +1,78 @@
-# Social-Network
+Social Network
+Overview
 
-Social-Network is created a website to bookmark and share images [Python][0] using the [Django Web Framework][1]. Implement social authentication with Facebook, Twitter, and Google. Create user profiles, generate image thumbnails, build a bookmarklet with JavaScript and Django, create a user activity stream, implement AJAX requests with JS and Django, develop a user follow system, learn to use Django signals, implement infinite scroll pagination, and build an image ranking with Redis.
-
-
-
-    Implement authentication using the Django authentication framework
-    Extend the user model with a custom profile model
-    Use the Diango messages framework
-    Build a custom authentication backend
-    Implement social authentication (OAuth2) with Facebook, Twitter, and Google using Python Social Auth
-    Use django-extensions to run the development server through HTTPS
-    Generate image thumbnails with easy-thumbnails
-    Implement many-to-many relationships in models
-    Build a JavaScript bookmarklet with JavaScript and Django
-    Add asynchronous HTTP requests with the JavaScript Fetch API and Django
-    Implement infinite scroll pagination
-    Build a user follow system
-    Create a user activity stream and optimize QuerySets
-    Learn to use Django signals
-    Use django-debug-toolbar to obtain relevant debug information
-    Count image views with Redis
-    Build an image ranking with Redis
+This is a web application built with Django that allows users to create profiles, connect with friends, and share posts. The app uses Ajax for dynamic updates and social authentication to allow users to sign in with their social media accounts.
 
 
-[0]: https://www.python.org/
-[1]: https://www.djangoproject.com/
+Some of the features of Django Social Network include:
 
-# Local Installation
+    User registration and login
+    Social network authentication (Facebook, Twitter, etc.)
+    User profiles with profile pictures and descriptions
+    News feed with posts from users the user is following
+    Ability to post status updates, images, and links
+    Like and comment on posts
+    Follow and unfollow other users
 
-Git clone to a local directory:
+Getting Started
 
-```
-git clone https://github.com/senayberhe/social-network
-```
+To get started with Django Social Network, follow these steps:
 
-[Install pipenv system-wide or locally](https://docs.pipenv.org/) but outside a virtualenv. Alternatively, follow these commands:
+    Clone the repository to your local machine:
 
-```
-$ pip install -U pip
-$ pip install pipenv
-```
+bash
 
-Now go to the project directory and install the dependencies:
-```
-$ cd social-Network
-$ pipenv install 
-```
+git clone https://github.com/senayberhe/django-social-network.git
 
-Now you need to enter the pipenv shell:
+    Create a virtual environment and activate it:
 
-```
-$ pipenv shell
-```
+bash
 
-Run the project:
-```
-$ cd src
-$ python manage.py migrate
-$ python manage.py loaddata initial-fixture.json
-$ python manage.py runserver
-```
 
-Open your browser and visit http://127.0.0.1:8000/ (or the URL shown in the last command). If you performed loaddata, then you can login using the username: "admin" and password: "admin".
+sh
 
-# Deployment to Heroku
+export SECRET_KEY='your-secret-key'
+export DEBUG='True'
+export SOCIAL_AUTH_FACEBOOK_KEY='your-facebook-app-id'
+export SOCIAL_AUTH_FACEBOOK_SECRET='your-facebook-app-secret'
 
-Enter project root and run the following commands:
 
-```
-$ heroku create social-Network-demo
-$ heroku addons:create heroku-postgresql:hobby-dev
-$ heroku config:set DJANGO_SETTINGS_MODULE=supernetwork.settings.production
-$ git push heroku master
-```
+python -m venv env
+source env/bin/activate
+
+    Install the dependencies:
+
+pip install -r requirements.txt
+
+    Set up the database:
+
+python manage.py migrate
+
+    Create a superuser:
+
+python manage.py createsuperuser
+
+    Start the development server:
+
+python manage.py runserver
+
+    Navigate to http://localhost:8000 in your web browser to view the application.
+
+Screenshots
+
+Here are some screenshots of the application:
+Login Page
+
+Login Page
+News Feed
+
+News Feed
+User Profile
+
+User Profile
+Post Detail
+
+Post Detail
+Contributing
+
+If you would like to contribute to Django Social Network, feel free to submit a pull request. We welcome contributions from anyone!
