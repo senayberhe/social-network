@@ -64,13 +64,17 @@ Here are some screenshots of the application:
 Login Page
 
 Login Page
-News Feed
+![Screenshot](img1.png)
 
 News Feed
 User Profile
+
+![Screenshot](img2.png)
 
 User Profile
 Post Detail
+
+![Screenshot](img3.png)
 
 Post Detail
 Contributing
