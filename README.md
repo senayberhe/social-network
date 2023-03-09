@@ -1,7 +1,7 @@
 Social Network
-Overview
 
-This is a web application built with Django that allows users to create profiles, connect with friends, and share posts. The app uses Ajax for dynamic updates and social authentication to allow users to sign in with their social media accounts.
+
+Implemented social authentication with Facebook, Twitter, and Google to enable users to sign up and log in to the website with their social media accounts, created user profiles to allow users to add and manage their personal information, generated image thumbnails to display images in a smaller size, reducing loading time, built a bookmarklet with JavaScript and Django to enable users to save content from other websites, created a user activity stream to show the latest activities and updates from other users they follow, implemented AJAX requests with JS and Django to allow users to interact with the website without the need to refresh the page, developed a user follow system to enable users to follow other users and get updates on their activities, learned to use Django signals to implement custom actions and notifications triggered by certain events, implemented infinite scroll pagination to load more content as the user scrolls down the page, and built an image ranking with Redis to allow users to rate and rank images on the website based on popularity and engagement.
 
 
 Some of the features of Django Social Network include:
