@@ -6,13 +6,17 @@ This is a web application built with Django that allows users to create profiles
 
 Some of the features of Django Social Network include:
 
-    User registration and login
-    Social network authentication (Facebook, Twitter, etc.)
-    User profiles with profile pictures and descriptions
-    News feed with posts from users the user is following
-    Ability to post status updates, images, and links
-    Like and comment on posts
-    Follow and unfollow other users
+     Set up user authentication using Django authentication framework and build a custom authentication backend.
+    Use a custom profile model to extend the user model.
+    Utilize Django messages framework for displaying messages to the user.
+    Implement social authentication with OAuth2 using Python Social Auth and support Facebook, Twitter, and Google.
+    Use Django-extensions to run the development server through HTTPS.
+    Generate image thumbnails using easy-thumbnails.
+    Implement many-to-many relationships in models.
+    Create a JavaScript bookmarklet with JavaScript and Django, and add asynchronous HTTP requests with the JavaScript Fetch API and Django.
+    Implement infinite scroll pagination and a user follow system.
+    Build a user activity stream, optimize QuerySets, and use Django signals.
+    Use django-debug-toolbar to obtain debug information, count image views and build an image ranking using Redis.
 
 Getting Started
 
